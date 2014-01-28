@@ -1,0 +1,29 @@
+if maximuim enrollee=45
+payment due date=sept 12
+register end date sept 20
+
+
+user  regiter upto the 45 are guranteed 
+
+if (registrant + enrollee) == maximum limit 
+user can only register not pay   and put in  waiting or not-guranteed 
+
+if payment due date reached 
+waiting user can now pay and become enrollee  now course will alot will be first pay first server basis 
+
+if registed end date reached 
+no register only pay 
+maximum enroller changed to  (registerant + enrollee)
+
+
+http://localhost/user/reset_password?email=ben.binesh@ithands.net&verification_code=8lvdz5ceLWHJ&user=MTU0Ng==
+
+http://localhost/user/activate?email=ben.binesh@ithands.net&verification_code=Ek6TtGqrtFkB&user=MTU0Ng==
+
+http://localhost/user/activate?email=ben.binesh@ithands.net&activation_code=Ek6TtGqrtFkB&user=MTU0Ng==
+http://localhost/user/activate?email=ben.binesh@ithands.net&activation_code=2m3Aw4kcfaZQ&user=MTU0Ng==
+
+2m3Aw4kcfaZQ
+
+
+ 

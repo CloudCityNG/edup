@@ -1,0 +1,387 @@
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {
+    margin: 0;  padding:0; border: 0; outline: 0; vertical-align: baseline;  background: transparent;
+	}
+@font-face {
+    font-family: 'noto_sansregular';
+    src: url('notosans-regular-webfont.eot');
+    src: url('notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('notosans-regular-webfont.woff') format('woff'),
+         url('notosans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{font-size:0.90em; font-family:noto_sansregular; color:#555; line-height:1.4em;}
+.clear{clear:both;}
+.clearfix{clear:both;}
+.p_r5{padding-right:5px !important;}
+
+
+p{padding-bottom:25px;}
+a{text-decoration:none;}
+
+a {color:#575859;}
+a:visited{color:#ee3a43;}
+a:focus{outline : thin dotted; color : rgb(0,0,0); }
+.required{color:#ee3a43;}
+a:hover, 
+a:active {outline:0; color:#ee3a43;}
+
+h1, h2, h3, h4, h5, h6 {font-weight : normal;}
+h1{font-size:1.5em; }
+h2{font-size:1.4em; padding:0 0 10px;}
+h3{font-size:1.2em;}
+h4{font-size:1.06em;}
+
+.fLeft{float:left;}
+.fRight{float:right !important;}
+
+
+.logo{ width:100%; float:left; min-height:1px}
+.logo img{position:absolute; left:-8px; top:0px; z-index:99999; max-width:50%;}
+
+.banner{padding:1px 0 55px 0;}
+.bannerInner{padding:1px 0 20px 0;}
+.banner ul.bxslider li{ position:relative;}
+.banner ul.bxslider li span{ position:absolute; right:5px; top:5px;}
+
+.banner #bx-pager{ padding:7px 0 0 0; overflow:hidden;}
+.banner #bx-pager ul li{display:inline-block; float:left; width:24.66%; background:#aaaaaa; text-align:center;  font-size:1em; overflow:hidden;  margin:0 3px 0 0;}
+.banner #bx-pager ul li:last-child{margin:0px;}
+.banner #bx-pager ul li:hover{background:#6d6969;}
+.banner #bx-pager a{ color:#fff; padding:5px 0; display:block;} 
+.banner #bx-pager a.active{ background:#6d6969;}
+
+ul.homeImages li.testimonial{-webkit-border-radius:8px;-moz-border-radius:8px; border-radius:8px; background:#ee3a43; height:153px; width:280px; padding-right:0px; position:relative; color:#fff; padding:16px 10px; display:inline-block; padding:15px 10px; font-size:1.2em; line-height:25px;}
+ul.homeImages li.testimonial span{position:absolute; right:28px; bottom:-21px;} 
+ul.homeImages li.testimonial em{color:#575859; font-size:0.8em; position:absolute; bottom:-91px; width:100%; text-align:right; right:2px; padding:0 3px 10px;}
+ul.homeImages li.testimonial em p{text-decoration:underline; line-height:normal; padding:0px;}
+ul.homeImages{ border-bottom:1px solid #cccccc; overflow:hidden; padding:0 0 80px 0}
+ul.homeImages li{float:left; padding:0 20px 0 0}
+.middleSection ul li span.testimonial .arrow{ position:absolute; right:20px; bottom:-24px;}
+.middleSection ul li em{font-style:italic; color:#575859; text-decoration:underline; font-size:.80em; clear:both; display:block; padding:15px 0 0 0; text-align:right;}
+
+.featuredCource{padding:42px 0 0 0;}
+.featuredCource h1{padding-bottom:10px; color:#575859; font-size:1.5em}
+.maincontent .featuredCource ul{}
+.maincontent .featuredCource ul li{width:140px; height:140px; background:#aaaaaa; display:inline-block; margin:0 18px 18px 0px; float:left; position:relative;}
+.maincontent .featuredCource ul li span{ position:absolute; bottom:0px; background:#6d6969; color:#fff; font-size:1em; display:block; width:100%; width:100%;} 
+.maincontent .featuredCource ul li span a{color:#fff; padding:2px 5px; display:block;}
+.maincontent .featuredCource ul li span a:hover{color:#fff;}
+.maincontent .featuredCource ul li:nth-child(even){margin-right:0px}
+.maincontent .featuredCource .btnCourses {background: none repeat scroll 0 0 #ee3a43; border-radius:10px; clear:both; color:#FFFFFF; cursor:pointer; 
+font-size:95%; padding:4px 3px; height:20px; border:2px solid #ee3a43; text-align:center; width:95%; margin:0 auto; }
+.maincontent .featuredCource .btnCourses:hover{height:20px; border:2px solid #b2223a;}
+.maincontent .featuredCource .btnCourses a{color:#fff;}
+.featuredCource .universityLogo{padding:20px 0 0 0;}
+.featuredCource .universityLogo p{padding-bottom:20px;}
+
+.aboutEduspire{padding:42px 0 0 20px;}
+.aboutEduspire h1{color:#575859; font-size:1.5em}
+.aboutEduspire p{padding:5px 0 15px 0;}
+
+.rightColumn{padding:42px 0 0 15px;}
+.rightColumn h1{color:#575859; font-size:1.5em}
+.rightColumn p{padding:5px 0 20px 0;}
+.rightColumn .updates{background:#eeeded; padding:10px 5px 10px 10px;}
+.rightColumn .updates .title{padding:5px 0 20px;}
+.rightColumn .updates .title:last-child{padding:5px 0 0px;}
+.rightColumn .updates .title p{padding:0px;}
+
+
+.footer{ margin:80px 0 0 0;  background:#ee3a43; min-height:50px;}
+.footer ul{padding:20px 0 0 0;}
+.footer ul li{display:inline; text-transform:uppercase; color:#fff; font-size:1.1em; float:left; padding:0 30px 0 0;}
+.footer ul li.icons{ float:right; margin:-8px 0 0 0; padding:0px}
+.footer ul li a{color:#fff;}
+.footer ul li a:hover{color:#;}
+.subFooter{background:#555555; color:#fff; text-align:center; font-size:0.8em; min-height:26px; margin:1px 0 0 0; padding:3px 0 0 0; width:100%;}
+
+
+@media only screen and (max-width: 945px) {
+	.footer ul li.icons{  display:block; float:left; padding:15px 0 0 0; clear:both}
+	}
+
+/*page title css*/
+.pageTitle{width:100%; background:#6d6969; height:50px; margin:1px 0 20px 0;}
+.pageTitle .title{color:#fff; margin:0 auto; font-size:1.4em; text-transform:uppercase; line-height:48px; position:absolute; left:235px}
+
+/*Cource Deatails css*/
+.aside{ padding:0px 0 0 0;}
+.aside ul li{ background:#dbdbdb; border-bottom:1px solid #fff; padding:5px 5px 5px 10px;}
+.aside ul li a{color:#555;}
+.aside ul li a:hover{color:#555;}
+.aside ul li.active{background:#bbbbbb; color:#000;}
+.breadcrumb{font-size:0.85em; padding:0px 0 0 18px;}
+.breadcrumb a{color:#555;}
+.breadcrumb span{color:#ee3a43;}
+
+.courceDetail .middle{padding:5px 0 0 20px;}
+.courceDetail .middle .upcomingClasses{-webkit-border-radius: 8px;-moz-border-radius:8px;border-radius:8px;background:#ee3a43;color:#fff; cursor:pointer;
+ text-align:center; padding:3px; margin:10px 0; clear:both; height:24px; width:99%; float:left;}
+.courceDetail .middle .upcomingClasses a{color:#fff;}
+.courceDetail .middle .upcomingClasses a:hover{color:#fff;}
+.courceDetail .middle p{padding: 0 0 30px 0; clear:both;}
+.thumbnail{padding:0 5px 0 0; float:left;}
+
+/*Right column css*/
+.sidebar{ padding:0 0 0 20px;}
+.curriculum{-webkit-border-radius:8px;-moz-border-radius: 8px;border-radius: 8px;background:#279bcc; width:90%; padding-right:0px; position:relative; color:#fff; padding:16px 10px; display:inline-block; padding:15px 10px; font-size:1em; float:right;}
+.curriculum ul{ list-style-type:inherit; padding:0 0 0 15px;}
+.curriculum ul li{ padding:0 0 1px 0;}
+.curriculum h4{ font-size:1.3em; color:#fff;}
+
+.testimonials{-webkit-border-radius:8px;-moz-border-radius: 8px;border-radius: 8px;background:#ee3a43; width:90%; padding-right:0px; position:relative; color:#fff; padding:16px 10px; display:inline-block; padding:15px 10px; font-size:1em; float:right; margin:20px 0 0 0;}
+.testimonials img{position:absolute; bottom:-16px; right:26px;}
+.testimonials span{position:absolute; bottom:-55px; right:5px; font-style:italic; color:#6d6969; font-size:0.8em; text-align:right; text-decoration:underline;}
+
+
+
+/*About Us page css */
+.staffMember{ border-top:1px solid #aaabab; border-bottom:1px solid #aaabab; padding:35px 0px ; overflow:hidden; margin-top:10px;}
+.staffMember ul li{ display:inline; float:left; padding:0 10px 0 0}
+.staffMember ul li p{padding:0px;}
+.staffMember ul li img{clear:both;}
+
+.meetInstructer{border-bottom:1px solid #aaabab; overflow:hidden; padding:35px 0;}
+.meetInstructer ul li{display:inline; float:left; padding:0 10px 20px 0}
+.meetInstructer ul li p{padding:0px;}
+.meetInstructer ul li img{clear:both;}
+
+.aboutus{}
+.aboutus .pageTitle{margin-bottom:0px;}
+.aboutus .aboutusHeading{ font-size:1.2em;}
+.aboutus .aboutusHeading h1{font-size:1.9em; padding:10px 0}
+.aboutus .aboutusHeading h2{font-size:1.4em; padding:0 0 10px}
+.aboutus .aboutusHeading h3{font-size:1.2em; padding-bottom:10px;}
+.aboutus .btmContent{ padding:20px 0 0 0;}
+
+/*News page css */
+.news{}
+.news .newsPagination {text-align:right; float:right; width:100%;}
+.news .newsPagination ul li{display:inline; padding:0 2px 0 0}
+.news .archive{padding:5px 10px; background:#eeeded; webkit-border-radius: 8px;-moz-border-radius:8px;border-radius:8px;}
+.news .archive ul li{padding:0 0 5px;}
+.news .archive ul li a{text-decoration:underline;}
+.news .archive ul li span{ font-size:0.8em; display:block; clear:both;}
+.news .entry-content{padding-bottom:25px;}
+
+.news .newsEvent{border-bottom:1px solid #ccc; margin:0 0 25px ;}
+.news .newsEvent img{width:100%;}
+.news .form ul li{padding:0 0 5px;}
+.news .form{ padding:20px 0 0 0;}
+.news .form p{padding-bottom:10px;}
+.news .form .button{margin:20px 0 0 0;}
+.news .form input[type="text"]{clear:both; width:95%;}
+.news .form select{clear:both; width:95%;}
+.news .form span.required{color:#b2223a;}
+.news .row {text-align:left; overflow:hidden; padding:0 0 5px;}
+.news .row .left_area{width:100% !important;}
+.news .row .right_area{width:100% !important; }
+
+/*testimonials page css */
+.testimonialForm{background:#eeeded; border:1px solid #e4e2e2; overflow:hidden; padding:10px 0;}
+.testimonialForm ul{padding:0px 5px;}
+.testimonialForm ul li{ display:inline; padding:10px;}
+.testimonialForm ul li:nth-child(3){clear:left;}
+.testimonialForm ul li select{width:16%; margin:0 0 0 5px}
+.testimonialForm .button{float:left; padding:5px 10px; margin:20px 0 0 20px; height: 34px;}
+.testimonialForm .button:hover{padding:5px 10px;  height: 34px;}
+.testimonialContent .testimonialSummury{ width:100%; clear:both; padding:20px 0 0 0;}
+.testimonialContent .testimonialSummury p{padding-bottom:10px;}
+.testimonialContent .testimonialSummury span{display:block; float:right; }
+
+/*Course offering  css*/
+.courceOffering{}
+ul.courceOffering{}
+ul.courceOffering li{display:inline; float:left; width:15.5%; padding:0 10px 30px 0;}
+ul.courceOffering li.courceOfferingTestimonial{width:33%; margin:0px; padding:0px;}
+ul.courceOffering li.courceOfferingTestimonial .testimonials{margin:0px;}
+ul.courceOffering li.courceOfferingTestimonial span{text-align:right; font-style:italic; float:right; padding:15px 0 10px 0; font-size:0.8em}
+
+/*faq page css */
+.faqContent{}
+.faqContent h4{ font-size:1.2em; padding:15px 0 0 0}
+.faqContent .faq{display:; padding:5px 0 20px 0; border-bottom:1px solid #ccc;}
+.faqContent .expand_collapse{ webkit-border-radius: 8px;-moz-border-radius:8px;border-radius:8px;background:#ee3a43; height:28px; border:2px solid #ee3a43; cursor:pointer; text-align:center; vertical-align:middle; padding:0px 10px; float:right; line-height:23px}
+.faqContent .expand_collapse:hover{border:2px solid #b2223a;}
+.faqContent .expand_collapse a{color:#fff;}
+.faqContent .top20{margin:20px 0 0 0;}
+
+/*contact us page css*/
+.contactus{}
+.contactus label{ float:left; width:130px; }
+.contactus ul li {display:block; padding:0 0 10px;}
+.contactus ul li input[type="text"]{width:70%;}
+.contactus ul li textarea{width:70%;}
+.contactus ul li span.button{padding:5px 15px; margin:15px 0 0 0;}
+
+
+
+/*check out css*/
+.checkout{ width:100%;}
+.checkout .left{padding:0 20px 0 0;}
+.checkout .left .discription{overflow:hidden; width:98%; padding:0 0 25px;}
+.checkout .left ul{background:#eeeded; border:1px solid #E4E2E2; overflow:hidden; padding:10px;}
+.checkout .left ul li{display:inline; width:70%; float:left;}
+.checkout .left ul li span{clear:both; display:block; padding:0 0 5px;}
+.checkout .left ul li:nth-child(2){width:28%;}
+.checkout .row{width:99%; padding:15px 0 0 0;}
+.checkout .row span{padding:5px 10px; display:inline-block;}
+.checkout .row span:hover{padding:5px 10px;}
+.checkout .right{}
+.checkout .right ul{}
+.checkout .right ul li{ background:#eeeded; border:1px solid #E4E2E2; padding:10px;}
+.checkout .right ul li:hover{background:#e5e5e5;}
+.checkout h2{border-bottom:1px solid #ccc;}
+.checkout ul.billingInformation {background:none; border:none;}
+.checkout ul.billingInformation li{width:100%;}
+.checkout ul.billingInformation label{width:49%; float:left;}
+.checkout ul.billingInformation label input[type="text"]{width:92%}
+.checkout ul.billingInformation li:nth-child(2){width:100%;}
+.checkout ul.billingInformation input[type="text"]{width:94%}
+.checkout ul.paymentDetails{background:none; border:none;}
+
+/*Buttons css*/
+.submit, .button{-webkit-border-radius: 8px;-moz-border-radius:8px;border-radius:8px;background:#ee3a43;color:#fff; border:2px solid #ee3a43;
+ cursor:pointer; text-align:center; vertical-align:middle; padding:5px 15px; font-family:noto_sansregular;}
+.submit:hover, .button:hover,.button:active{border:2px solid #b2223a;}
+
+
+/*Grid css */
+table.table,
+table#grid{ border-collapse:collapse;}
+table.table th,
+table#grid th{background:#ee3a43; color:#fff; border:1px solid #ccc; padding:5px; text-align:left;}
+tr:nth-child(even) {background: #eeeeee}
+tr:nth-child(odd) {background: #e5e5e5}
+table.table td,
+table#grid td{color: #575859;
+border: 1px solid #fff;
+padding: 5px;
+text-align: left; }
+
+
+/*Css for 768 width 
+@media screen and (min-device-width: 481px) and (max-device-width: 768px)
+@media only screen and (max-width: 768px) */
+@media screen and (min-width: 481px) and (max-width: 939px){
+ul.homeImages{padding:0 0 110px;}
+ul.homeImages li{ text-align:center; width:24.66%; padding:0px;}
+ul.homeImages li:nth-child(1){text-align:left;}
+ul.homeImages li:nth-child(4){padding:0; text-align:right;}
+ul.homeImages li.testimonial{width:95%; margin:20px 0 0 0; height:auto;}
+.logo img{max-width:28%;}
+	}
+	
+@media screen and (min-width: 481px) and (max-width: 768px){
+/*body{background:#ccc;}*/
+.pageTitle .title{left:200px;}
+.banner #bx-pager ul li:last-child{margin:0px;}
+.banner #bx-pager ul li{float:left; margin:0 3px 0 0; width:24%;}
+ul.homeImages{padding:0 0 110px;}
+ul.homeImages li{ text-align:center; width:24.66%; padding:0px;}
+ul.homeImages li:nth-child(1){text-align:left;}
+ul.homeImages li:nth-child(4){padding:0; text-align:right;}
+ul.homeImages li.testimonial{width:99%; margin:20px 0 0 0; height:auto;  box-sizing:border-box;  -moz-box-sizing:border-box; -webkit-box-sizing:border-box}
+
+.maincontent .featuredCource ul li {width:47%;}
+.maincontent .featuredCource .btnCourses {margin:0px; width:98%;}
+
+/*testimonials page css */
+.testimonialForm{background:;}
+.testimonialForm ul li select{width:36%; margin:0 0 15px;}
+.testimonialForm ul li:last-child select{width:61%;}
+
+.testimonialContent .testimonialForm .button{margin-top:5px;}
+
+.footer ul li{padding:0 15px 0 0; font-size:1em}
+
+}
+/**CHANGE BY" BINESG"*/
+.pageTitle .findCources{position: absolute;right: 5px;color: #fff;font-size: 1.2em;top: 8px;}
+/**ADMIN STYLES */
+
+
+
+@media only screen and (max-width: 480px) {
+/*home page css*/
+.banner #bx-pager ul li{margin:0 2px 2px 0; width:49%;}
+.banner #bx-pager ul li:nth-child(2){margin-right:0px;}
+.banner #bx-pager ul li:nth-child(4){margin-right:0px;}
+ul.homeImages{padding-bottom:120px;}
+.banner{padding-bottom:15px;}
+ul.homeImages li {padding:0px; width:50%; text-align:center;}
+ul.homeImages li.testimonial {margin:10px 0 0 0px; width:93%;}
+.maincontent .featuredCource ul li{width:47%;}
+.aboutEduspire{padding:10px 0 0 0;}
+.rightColumn {padding:10px 0 0 0 ;}
+
+.contactForm .left_area{width:100%;}
+.contactForm .right_area{width:100%;}
+#form .contactForm input[type="text"] {width: 95%; }
+#form .contactForm textarea {width: 95%; }
+
+.pageTitle .title{left:25px;}
+
+.footer ul li{padding:0 15px 5px;}
+.footer ul li.icons {clear: both; padding: 15px 0 5px; text-align: center; width: 100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Form css */
+.row{padding:0 0 15px; overflow:hidden;}
+.left_area {float: left; width: 30%;}
+.right_area {float: left; width: 70%;}
+
+#form .contactForm{}
+.contactForm input[type="text"]{width:60%;}
+.contactForm textarea{width:60%;}
+.contactForm .row{overflow:hidden; padding:0 0 15px}
+
+input[type="text"]{height:28px; border:1px solid #aaa; color:#575859;}
+input[type="password"]{height:28px; border:1px solid #aaa; color:#575859;}
+select{ height:28px; border:1px solid #aaa; background:#f5f5f5; color:#575859;}
+textarea{border:1px solid #aaa; color:#575859;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup-div {background-color: #fff;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;border: 1px solid #ccc;position: fixed;
+-webkit-box-shadow: 0px 4px 5px rgba(50, 50, 50, 0.5);-moz-box-shadow: 0px 4px 5px rgba(50, 50, 50, 0.5);box-shadow: 0px 4px 5px rgba(50, 50, 50, 0.5);top: 50%;
+left: 50%;margin: -50px 0 0 -100px;padding: 20px;display: none;
+width: 300px;height: 100px;z-index: 9999;}
+.popup-div .popup-content {clear: both;}
+.popup-div .popup-content p {margin-bottom: 20px;}

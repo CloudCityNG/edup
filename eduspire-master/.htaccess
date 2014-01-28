@@ -1,0 +1,13 @@
+#Deny from all
+Options -Indexes
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|public|user_guide|robots\.txt)
+
+    # Checks to see if the user is attempting to access a valid file,
+    # such as an image or css document, if this isn't true it sends the
+    # request to index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+	 
+RewriteRule ^(.*)$ /index.php?/$1 [L]
